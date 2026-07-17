@@ -1,5 +1,3 @@
-  var MAP_HEIGHT = 2438;
-  const MAP_WIDTH = 5000; const MAP_HEIGHT = 2438; const svgEl = getSvgRoot();
 // admin.js
 
   const ASSET_BASE_URL = new URL("./", window.location.href);
