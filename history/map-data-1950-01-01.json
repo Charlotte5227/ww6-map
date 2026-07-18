@@ -1,0 +1,1045 @@
+[
+  {
+    "type": "metadata",
+    "date": "西暦 1950年 01月 01日"
+  },
+  {
+    "type": "country",
+    "name": "アメリカ合衆国",
+    "color": "#0400ff",
+    "provinces": [
+      "path194"
+    ],
+    "labelText": "アメリカ合衆国",
+    "labelFontSize": "50",
+    "labelX": "986.2094892794579",
+    "labelY": "939.5651714115887",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "ソヴィエト社会主義共和国連邦",
+    "color": "#ff0000",
+    "provinces": [
+      "path12"
+    ],
+    "labelText": "ソヴィエト社会主義共和国連邦",
+    "labelFontSize": "50",
+    "labelX": "3382.052588213082",
+    "labelY": "552.1501455207108",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "イギリス",
+    "color": "#8066ff",
+    "provinces": [
+      "path30"
+    ],
+    "labelText": "イギリス",
+    "labelFontSize": "30",
+    "labelX": "2332.5201423243107",
+    "labelY": "627.8635847393689",
+    "lockCenter": false
+  },
+  {
+    "type": "provNumber",
+    "provId": "path12",
+    "text": "1",
+    "fontSize": "15",
+    "x": "3380.2580461700427",
+    "y": "614.061622554072"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path13",
+    "text": "2",
+    "fontSize": "15",
+    "x": "2691.5693722416963",
+    "y": "478.04005936384743"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path14",
+    "text": "3",
+    "fontSize": "15",
+    "x": "2571.459634296098",
+    "y": "472.09719470440933"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path25",
+    "text": "4",
+    "fontSize": "15",
+    "x": "2484.0883456746596",
+    "y": "513.4587365140751"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path26",
+    "text": "5",
+    "fontSize": "15",
+    "x": "2152.1856689453125",
+    "y": "446.0211181640625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path27",
+    "text": "6",
+    "fontSize": "15",
+    "x": "2482.4630126953125",
+    "y": "617.0719299316406"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path28",
+    "text": "7",
+    "fontSize": "15",
+    "x": "1943.6651000976562",
+    "y": "310.8785934448242"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path30",
+    "text": "8",
+    "fontSize": "15",
+    "x": "2326.059814453125",
+    "y": "642.9376831054688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path31",
+    "text": "9",
+    "fontSize": "15",
+    "x": "2259.174072265625",
+    "y": "673.4707946777344"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path32",
+    "text": "10",
+    "fontSize": "15",
+    "x": "2489.839599609375",
+    "y": "706.1817932128906"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path33",
+    "text": "11",
+    "fontSize": "15",
+    "x": "2526.8841552734375",
+    "y": "686.5261535644531"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path34",
+    "text": "12",
+    "fontSize": "15",
+    "x": "2435.5079345703125",
+    "y": "683.3664855957031"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path35",
+    "text": "13",
+    "fontSize": "15",
+    "x": "2420.049560546875",
+    "y": "716.967529296875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path41",
+    "text": "14",
+    "fontSize": "15",
+    "x": "2520.4681396484375",
+    "y": "869.4435729980469"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path42",
+    "text": "15",
+    "fontSize": "15",
+    "x": "2394.995361328125",
+    "y": "796.0472412109375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path43",
+    "text": "16",
+    "fontSize": "15",
+    "x": "2546.884521484375",
+    "y": "772.5091552734375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path44",
+    "text": "17",
+    "fontSize": "15",
+    "x": "2588.0745849609375",
+    "y": "741.5338134765625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path45",
+    "text": "18",
+    "fontSize": "15",
+    "x": "2612.85888671875",
+    "y": "691.9079284667969"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path46",
+    "text": "19",
+    "fontSize": "15",
+    "x": "2616.7960205078125",
+    "y": "780.6832580566406"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path47",
+    "text": "20",
+    "fontSize": "15",
+    "x": "2603.5133056640625",
+    "y": "851.5771789550781"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path48",
+    "text": "21",
+    "fontSize": "15",
+    "x": "2687.3612060546875",
+    "y": "803.9826049804688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path49",
+    "text": "22",
+    "fontSize": "15",
+    "x": "2698.114501953125",
+    "y": "861.4291076660156"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path53",
+    "text": "23",
+    "fontSize": "15",
+    "x": "2677.8939208984375",
+    "y": "943.9200439453125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path54",
+    "text": "24",
+    "fontSize": "15",
+    "x": "2839.0625",
+    "y": "926.0496215820312"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path55",
+    "text": "25",
+    "fontSize": "15",
+    "x": "2809.024658203125",
+    "y": "996.4796142578125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path56",
+    "text": "26",
+    "fontSize": "15",
+    "x": "2885.361083984375",
+    "y": "1000.2632446289062"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path57",
+    "text": "27",
+    "fontSize": "15",
+    "x": "2953.8885498046875",
+    "y": "1026.4272155761719"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path58",
+    "text": "28",
+    "fontSize": "15",
+    "x": "2867.0750732421875",
+    "y": "1060.8348999023438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path59",
+    "text": "29",
+    "fontSize": "15",
+    "x": "2982.9569091796875",
+    "y": "1171.418212890625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path60",
+    "text": "30",
+    "fontSize": "15",
+    "x": "3008.8662109375",
+    "y": "1090.5383911132812"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path61",
+    "text": "31",
+    "fontSize": "15",
+    "x": "3104.522705078125",
+    "y": "1178.02783203125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path62",
+    "text": "32",
+    "fontSize": "15",
+    "x": "3133.7894287109375",
+    "y": "1232.8292236328125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path63",
+    "text": "33",
+    "fontSize": "15",
+    "x": "3024.1519775390625",
+    "y": "1310.6650390625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path64",
+    "text": "34",
+    "fontSize": "15",
+    "x": "3088.1104736328125",
+    "y": "1039.7363586425781"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path65",
+    "text": "35",
+    "fontSize": "15",
+    "x": "3255.192626953125",
+    "y": "1014.5001831054688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path68",
+    "text": "36",
+    "fontSize": "15",
+    "x": "3285.2676853919475",
+    "y": "1104.1893949669375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path69",
+    "text": "37",
+    "fontSize": "15",
+    "x": "3459.017797625472",
+    "y": "1203.5045946046218"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path70",
+    "text": "38",
+    "fontSize": "15",
+    "x": "3514.4566650390625",
+    "y": "1107.8622436523438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path71",
+    "text": "39",
+    "fontSize": "15",
+    "x": "3601.3662109375",
+    "y": "1121.4401245117188"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path74",
+    "text": "40",
+    "fontSize": "15",
+    "x": "3693.74951171875",
+    "y": "1243.40283203125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path78",
+    "text": "41",
+    "fontSize": "15",
+    "x": "3760.53144377805",
+    "y": "1324.3751477927344"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path81",
+    "text": "42",
+    "fontSize": "15",
+    "x": "3790.2627735101455",
+    "y": "1497.2587614831712"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path92",
+    "text": "43",
+    "fontSize": "15",
+    "x": "3958.3733497806106",
+    "y": "1578.1179099720418"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path120",
+    "text": "44",
+    "fontSize": "15",
+    "x": "4045.6574076313013",
+    "y": "1300.3565689524733"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path121",
+    "text": "45",
+    "fontSize": "15",
+    "x": "4365.102243603049",
+    "y": "1652.7185314020367"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path123",
+    "text": "46",
+    "fontSize": "15",
+    "x": "4181.6593017578125",
+    "y": "1981.2362670898438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path125",
+    "text": "47",
+    "fontSize": "15",
+    "x": "4601.616663726255",
+    "y": "2179.9191381342985"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path126",
+    "text": "48",
+    "fontSize": "15",
+    "x": "3706.12255859375",
+    "y": "785.218505859375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path128",
+    "text": "49",
+    "fontSize": "15",
+    "x": "3766.416296996422",
+    "y": "1010.0149361042436"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path129",
+    "text": "50",
+    "fontSize": "15",
+    "x": "3810.76611328125",
+    "y": "1231.291748046875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path130",
+    "text": "51",
+    "fontSize": "15",
+    "x": "3867.3003811032563",
+    "y": "1375.9026508438437"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path131",
+    "text": "52",
+    "fontSize": "15",
+    "x": "3778.629458025603",
+    "y": "1250.8397241388845"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path132",
+    "text": "53",
+    "fontSize": "15",
+    "x": "3820.943603515625",
+    "y": "1365.4957885742188"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path133",
+    "text": "54",
+    "fontSize": "15",
+    "x": "4027.1798095703125",
+    "y": "1183.9019165039062"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path142",
+    "text": "55",
+    "fontSize": "15",
+    "x": "4215.1740331668025",
+    "y": "980.1423448357901"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path143",
+    "text": "56",
+    "fontSize": "15",
+    "x": "2700.978271484375",
+    "y": "1996.8773803710938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path144",
+    "text": "57",
+    "fontSize": "15",
+    "x": "2699.1051025390625",
+    "y": "1903.1245727539062"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path145",
+    "text": "58",
+    "fontSize": "15",
+    "x": "2588.100830078125",
+    "y": "1912.4962158203125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path146",
+    "text": "59",
+    "fontSize": "15",
+    "x": "2610.558349609375",
+    "y": "1741.3622436523438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path147",
+    "text": "60",
+    "fontSize": "15",
+    "x": "2664.142578125",
+    "y": "1613.556884765625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path148",
+    "text": "61",
+    "fontSize": "15",
+    "x": "2745.851318359375",
+    "y": "1761.2218017578125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path149",
+    "text": "62",
+    "fontSize": "15",
+    "x": "2768.3944091796875",
+    "y": "1851.9202880859375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path150",
+    "text": "63",
+    "fontSize": "15",
+    "x": "2855.19970703125",
+    "y": "1841.414306640625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path151",
+    "text": "64",
+    "fontSize": "15",
+    "x": "2749.576904296875",
+    "y": "2014.97412109375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path152",
+    "text": "65",
+    "fontSize": "15",
+    "x": "2795.0972900390625",
+    "y": "1967.98876953125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path153",
+    "text": "66",
+    "fontSize": "15",
+    "x": "3010.736083984375",
+    "y": "1852.2042236328125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path154",
+    "text": "67",
+    "fontSize": "15",
+    "x": "2846.7430227114905",
+    "y": "1662.0420744807184"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path155",
+    "text": "68",
+    "fontSize": "15",
+    "x": "2889.2701416015625",
+    "y": "1556.8048706054688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path156",
+    "text": "69",
+    "fontSize": "15",
+    "x": "2811.109619140625",
+    "y": "1538.3480224609375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path157",
+    "text": "70",
+    "fontSize": "15",
+    "x": "2923.5677490234375",
+    "y": "1417.3514404296875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path158",
+    "text": "71",
+    "fontSize": "15",
+    "x": "3003.2904052734375",
+    "y": "1494.4849883537472"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path159",
+    "text": "72",
+    "fontSize": "15",
+    "x": "2892.9410400390625",
+    "y": "1308.1480712890625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path160",
+    "text": "73",
+    "fontSize": "15",
+    "x": "2781.7939453125",
+    "y": "1349.2877807617188"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path161",
+    "text": "74",
+    "fontSize": "15",
+    "x": "2650.220703125",
+    "y": "1450.6367797851562"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path162",
+    "text": "75",
+    "fontSize": "15",
+    "x": "2567.899169921875",
+    "y": "1566.6227416992188"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path163",
+    "text": "76",
+    "fontSize": "15",
+    "x": "2522.834716796875",
+    "y": "1568.6727294921875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path164",
+    "text": "77",
+    "fontSize": "15",
+    "x": "2505.3031005859375",
+    "y": "1534.2791137695312"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path166",
+    "text": "78",
+    "fontSize": "15",
+    "x": "2478.5797119140625",
+    "y": "1416.8666381835938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path167",
+    "text": "79",
+    "fontSize": "15",
+    "x": "2469.5616455078125",
+    "y": "1278.2303466796875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path168",
+    "text": "80",
+    "fontSize": "15",
+    "x": "2620.1669921875",
+    "y": "1314.9190063476562"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path169",
+    "text": "81",
+    "fontSize": "15",
+    "x": "2532.291748046875",
+    "y": "1452.6359252929688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path170",
+    "text": "82",
+    "fontSize": "15",
+    "x": "2280.1102294921875",
+    "y": "1441.9827880859375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path171",
+    "text": "83",
+    "fontSize": "15",
+    "x": "2341.1748046875",
+    "y": "1435.0511474609375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path172",
+    "text": "84",
+    "fontSize": "15",
+    "x": "2371.6142578125",
+    "y": "1430.7894287109375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path173",
+    "text": "85",
+    "fontSize": "15",
+    "x": "2390.2005615234375",
+    "y": "1414.0139770507812"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path174",
+    "text": "86",
+    "fontSize": "15",
+    "x": "2333.355224609375",
+    "y": "1364.410888671875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path175",
+    "text": "87",
+    "fontSize": "15",
+    "x": "2196.94677734375",
+    "y": "1402.8670043945312"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path176",
+    "text": "88",
+    "fontSize": "15",
+    "x": "2189.3828125",
+    "y": "1425.741943359375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path177",
+    "text": "89",
+    "fontSize": "15",
+    "x": "2224.96337890625",
+    "y": "1457.2922973632812"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path178",
+    "text": "90",
+    "fontSize": "15",
+    "x": "2148.13232421875",
+    "y": "1370.9767456054688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path179",
+    "text": "91",
+    "fontSize": "15",
+    "x": "2157.1993408203125",
+    "y": "1331.15380859375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path180",
+    "text": "92",
+    "fontSize": "15",
+    "x": "0",
+    "y": "0"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path181",
+    "text": "93",
+    "fontSize": "15",
+    "x": "2144.9613037109375",
+    "y": "1354.560791015625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path182",
+    "text": "94",
+    "fontSize": "15",
+    "x": "2303.380859375",
+    "y": "1280.5404663085938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path183",
+    "text": "95",
+    "fontSize": "15",
+    "x": "2203.4705810546875",
+    "y": "1227.6629028320312"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path184",
+    "text": "96",
+    "fontSize": "15",
+    "x": "2180.26220703125",
+    "y": "1169.5671997070312"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path185",
+    "text": "97",
+    "fontSize": "15",
+    "x": "2266.173583984375",
+    "y": "1051.325927734375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path186",
+    "text": "98",
+    "fontSize": "15",
+    "x": "2380.2572021484375",
+    "y": "1110.5619812011719"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path187",
+    "text": "99",
+    "fontSize": "15",
+    "x": "2597.1727294921875",
+    "y": "1140.2430419921875"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path188",
+    "text": "100",
+    "fontSize": "15",
+    "x": "2775.1175537109375",
+    "y": "1135.159423828125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path189",
+    "text": "101",
+    "fontSize": "15",
+    "x": "2490.2490234375",
+    "y": "1017.3830261230469"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path190",
+    "text": "102",
+    "fontSize": "15",
+    "x": "2320.5323486328125",
+    "y": "909.5467224121094"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path191",
+    "text": "103",
+    "fontSize": "15",
+    "x": "2252.634521484375",
+    "y": "918.0150756835938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path194",
+    "text": "104",
+    "fontSize": "15",
+    "x": "958.2147351709866",
+    "y": "844.8136959675322"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path223",
+    "text": "105",
+    "fontSize": "15",
+    "x": "1043.1443823268132",
+    "y": "542.5487238581524"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path224",
+    "text": "106",
+    "fontSize": "15",
+    "x": "965.0498657226562",
+    "y": "1180.2152709960938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path230",
+    "text": "107",
+    "fontSize": "15",
+    "x": "1226.5169067382812",
+    "y": "1430.2122802734375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path231",
+    "text": "108",
+    "fontSize": "15",
+    "x": "1158.286257384633",
+    "y": "1355.483338236284"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path232",
+    "text": "109",
+    "fontSize": "15",
+    "x": "1275.3395385742188",
+    "y": "1219.4976196289062"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path234",
+    "text": "110",
+    "fontSize": "15",
+    "x": "1379.4615478515625",
+    "y": "1261.5943603515625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path235",
+    "text": "111",
+    "fontSize": "15",
+    "x": "1315.424072265625",
+    "y": "1700.3241577148438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path236",
+    "text": "112",
+    "fontSize": "15",
+    "x": "1269.362060546875",
+    "y": "1586.6986083984375"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path237",
+    "text": "113",
+    "fontSize": "15",
+    "x": "1339.3035278320312",
+    "y": "1486.8124389648438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path238",
+    "text": "114",
+    "fontSize": "15",
+    "x": "1431.6202392578125",
+    "y": "1461.5541381835938"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path239",
+    "text": "115",
+    "fontSize": "15",
+    "x": "1653.8014090494446",
+    "y": "1735.8372648622226"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path240",
+    "text": "116",
+    "fontSize": "15",
+    "x": "1535.6312255859375",
+    "y": "1484.9647827148438"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path241",
+    "text": "117",
+    "fontSize": "15",
+    "x": "1578.6411743164062",
+    "y": "1496.3917846679688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path242",
+    "text": "118",
+    "fontSize": "15",
+    "x": "1621.4059448242188",
+    "y": "1497.5650634765625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path243",
+    "text": "119",
+    "fontSize": "15",
+    "x": "1481.5401611328125",
+    "y": "1811.2638549804688"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path244",
+    "text": "120",
+    "fontSize": "15",
+    "x": "1491.668254350425",
+    "y": "2080.78686018811"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path245",
+    "text": "121",
+    "fontSize": "15",
+    "x": "1560.9929809570312",
+    "y": "1919.861572265625"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path246",
+    "text": "122",
+    "fontSize": "15",
+    "x": "1614.3493041992188",
+    "y": "2062.1563720703125"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path253",
+    "text": "123",
+    "fontSize": "15",
+    "x": "1411.3399784035435",
+    "y": "1925.2704721254192"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path254",
+    "text": "124",
+    "fontSize": "15",
+    "x": "4049.51611328125",
+    "y": "904.7926330566406"
+  },
+  {
+    "type": "provNumber",
+    "provId": "path255",
+    "text": "125",
+    "fontSize": "15",
+    "x": "4077.5562744140625",
+    "y": "969.2356567382812"
+  }
+]
