@@ -1,8 +1,3 @@
 {
-  "calendarName": "西暦",
-  "repositoryName": "ww6-map",
-  "baseGameDate": "1790-01-01",
-  "baseRealTime": 1782822117027,
-  "stepLengthMs": 21600000,
-  "stepUnit": "month"
+
 }
