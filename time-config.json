@@ -2,7 +2,7 @@
   "calendarName": "西暦",
   "repositoryName": "ww6-map",
   "baseGameDate": "1950-01-01",
-  "baseRealTime": 1784343532422,
-  "stepLengthMs": 604800000,
-  "stepUnit": "day"
+  "baseRealTime": 1784355525929,
+  "stepLengthMs": 86400000,
+  "stepUnit": "month"
 }
