@@ -385,39 +385,75 @@
 
   // --- GitHub API 通信系 ---
   const GH_OWNER = "Charlotte5227"; const GH_REPO  = "ww6-map"; const GH_PATH  = "map-data.json";
+  const GH_BRANCH_CANDIDATES = ["main", "master"];
   function toBase64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
   function fromBase64Utf8(base64) {
     const binary = atob(base64.replace(/\s/g, ""));
     const bytes = Uint8Array.from(binary, ch => ch.charCodeAt(0));
     return new TextDecoder("utf-8").decode(bytes);
   }
+  function buildGhHeaders(token, accept) {
+    const headers = { Accept: accept || "application/vnd.github+json" };
+    if (token) {
+      headers.Authorization = `Bearer ${token}`;
+      headers["X-GitHub-Api-Version"] = "2022-11-28";
+    }
+    return headers;
+  }
+  async function parseGhError(res, path) {
+    let detail = "";
+    try {
+      const payload = await res.json();
+      if (payload && payload.message) detail = ` (${payload.message})`;
+    } catch (_) {}
+    return `取得失敗:${path} [${res.status}]${detail}`;
+  }
+  async function fetchPublicRawText(owner, repo, path) {
+    for (const branch of GH_BRANCH_CANDIDATES) {
+      const url = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}?t=${Date.now()}`;
+      const res = await fetch(url, { cache: "no-store" });
+      if (res.ok) return await res.text();
+      if (res.status !== 404) {
+        throw new Error(`公開URLの取得失敗:${path} [${res.status}]`);
+      }
+    }
+    return null;
+  }
   async function getFileSha(owner, repo, path, token) {
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}`, "X-GitHub-Api-Version": "2022-11-28", Accept: "application/vnd.github+json" }, cache: "no-store" });
-    if (res.status === 404) return null; if (!res.ok) throw new Error("取得失敗:" + path);
+    const res = await fetch(url, { headers: buildGhHeaders(token, "application/vnd.github+json"), cache: "no-store" });
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(await parseGhError(res, path));
     return (await res.json()).sha;
   }
   async function fetchContentsJson(owner, repo, path, token) {
+    if (!token) {
+      const rawText = await fetchPublicRawText(owner, repo, path);
+      return rawText ? JSON.parse(rawText) : null;
+    }
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}`, "X-GitHub-Api-Version": "2022-11-28", Accept: "application/vnd.github+json" }, cache: "no-store" });
+    const res = await fetch(url, { headers: buildGhHeaders(token, "application/vnd.github+json"), cache: "no-store" });
     if (res.status === 404) return null;
-    if (!res.ok) throw new Error(`取得失敗:${path}`);
+    if (!res.ok) throw new Error(await parseGhError(res, path));
     const payload = await res.json();
     if (!payload || typeof payload.content !== "string") return null;
     return JSON.parse(fromBase64Utf8(payload.content));
   }
   async function fetchContentsRawText(owner, repo, path, token) {
+    if (!token) {
+      return await fetchPublicRawText(owner, repo, path);
+    }
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github.v3.raw" }, cache: "no-store" });
+    const res = await fetch(url, { headers: buildGhHeaders(token, "application/vnd.github.v3.raw"), cache: "no-store" });
     if (res.status === 404) return null;
-    if (!res.ok) throw new Error(`取得失敗:${path}`);
+    if (!res.ok) throw new Error(await parseGhError(res, path));
     return await res.text();
   }
   async function putFile(owner, repo, path, token, contentText, shaOrNull) {
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
     const body = { message: `Update ${path}`, content: toBase64Utf8(contentText), ...(shaOrNull ? { sha: shaOrNull } : {}) };
-    const res = await fetch(url, { method: "PUT", headers: { Authorization: `Bearer ${token}`, "X-GitHub-Api-Version": "2022-11-28", Accept: "application/vnd.github+json", "Content-Type": "application/json" }, body: JSON.stringify(body) });
-    if (!res.ok) throw new Error("保存失敗:" + path);
+    const res = await fetch(url, { method: "PUT", headers: { ...buildGhHeaders(token, "application/vnd.github+json"), "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    if (!res.ok) throw new Error(`保存失敗:${path} [${res.status}]`);
   }
 
   document.getElementById("publishBtn").addEventListener("click", async () => {
@@ -513,7 +549,6 @@
 
   document.getElementById("loadTimeBtn").addEventListener("click", async () => {
     const token = document.getElementById("ghToken").value.trim();
-    if (!token) { alert("GitHub token を入力してください。"); return; }
     
     try {
       const loadedConfig = await fetchContentsJson(GH_OWNER, GH_REPO, TIME_FILE_PATH, token);
@@ -539,7 +574,7 @@
       updateDateDisplay();
       alert("時間設定を取得しました。");
     } catch (e) {
-      alert("設定の取得に失敗しました。");
+      alert("設定の取得に失敗しました: " + e.message);
     }
   });
 
