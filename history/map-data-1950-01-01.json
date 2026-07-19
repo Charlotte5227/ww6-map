@@ -43,6 +43,71 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "ヨコリビ帝国",
+    "color": "#ffff00",
+    "provinces": [
+      "path187"
+    ],
+    "labelText": "ヨコリビ帝国",
+    "labelFontSize": 18,
+    "labelX": "2591.78825155706",
+    "labelY": "1113.130200487648",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "フランス第四共和国",
+    "color": "#00ffff",
+    "provinces": [
+      "path242"
+    ],
+    "labelText": "フランス第四共和国",
+    "labelFontSize": 18,
+    "labelX": "2406.409630247914",
+    "labelY": "790.7006582447458",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "連合国軍占領下日本",
+    "color": "#ff00ff",
+    "provinces": [
+      "path142"
+    ],
+    "labelText": "連合国軍占領下日本",
+    "labelFontSize": 18,
+    "labelX": "4217.0221318552985",
+    "labelY": "962.3249049975354",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "イタリア社会共和国",
+    "color": "#00ff00",
+    "provinces": [
+      "path41"
+    ],
+    "labelText": "イタリア社会共和国",
+    "labelFontSize": 18,
+    "labelX": "2520.4681396484375",
+    "labelY": "869.4435729980469",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "ルーマニア王国",
+    "color": "#2da800",
+    "provinces": [
+      "path48"
+    ],
+    "labelText": "ルーマニア王国",
+    "labelFontSize": 18,
+    "labelX": "2687.3612060546875",
+    "labelY": "803.9826049804688",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
@@ -103,8 +168,8 @@
     "provId": "path30",
     "text": "8",
     "fontSize": "15",
-    "x": "2326.059814453125",
-    "y": "642.9376831054688"
+    "x": "2345.010110490775",
+    "y": "671.3631271619436"
   },
   {
     "type": "provNumber",
@@ -119,16 +184,16 @@
     "provId": "path32",
     "text": "10",
     "fontSize": "15",
-    "x": "2489.839599609375",
-    "y": "706.1817932128906"
+    "x": "2525.897817491273",
+    "y": "683.8847176377071"
   },
   {
     "type": "provNumber",
     "provId": "path33",
     "text": "11",
     "fontSize": "15",
-    "x": "2526.8841552734375",
-    "y": "686.5261535644531"
+    "x": "2474.8882103450683",
+    "y": "712.2434284180105"
   },
   {
     "type": "provNumber",
@@ -159,8 +224,8 @@
     "provId": "path42",
     "text": "15",
     "fontSize": "15",
-    "x": "2394.995361328125",
-    "y": "796.0472412109375"
+    "x": "2397.81095489779",
+    "y": "818.9488818464176"
   },
   {
     "type": "provNumber",
@@ -735,8 +800,8 @@
     "provId": "path175",
     "text": "87",
     "fontSize": "15",
-    "x": "2196.94677734375",
-    "y": "1402.8670043945312"
+    "x": "2204.2353528523277",
+    "y": "1388.2898533773762"
   },
   {
     "type": "provNumber",
@@ -773,10 +838,10 @@
   {
     "type": "provNumber",
     "provId": "path180",
-    "text": "92",
+    "text": "",
     "fontSize": "15",
-    "x": "0",
-    "y": "0"
+    "x": "505.14383124430697",
+    "y": "1428.575966273531"
   },
   {
     "type": "provNumber",
@@ -807,7 +872,7 @@
     "provId": "path184",
     "text": "96",
     "fontSize": "15",
-    "x": "2180.26220703125",
+    "x": "2165.685056014095",
     "y": "1169.5671997070312"
   },
   {
@@ -983,8 +1048,8 @@
     "provId": "path242",
     "text": "118",
     "fontSize": "15",
-    "x": "1621.4059448242188",
-    "y": "1497.5650634765625"
+    "x": "3488.440699596877",
+    "y": "1445.8824405070773"
   },
   {
     "type": "provNumber",
