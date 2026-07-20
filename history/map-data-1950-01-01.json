@@ -108,6 +108,32 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "バウンド平和国",
+    "color": "#ffc533",
+    "provinces": [
+      "path150"
+    ],
+    "labelText": "バウンド平和国",
+    "labelFontSize": 18,
+    "labelX": "2855.19970703125",
+    "labelY": "1841.414306640625",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "第二クエス帝国",
+    "color": "#ff85b1",
+    "provinces": [
+      "path244"
+    ],
+    "labelText": "第二クエス帝国",
+    "labelFontSize": 18,
+    "labelX": "1520.99609375",
+    "labelY": "2127.0346069335938",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
