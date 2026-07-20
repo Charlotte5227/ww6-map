@@ -190,8 +190,21 @@
     ],
     "labelText": "辰韓皇国",
     "labelFontSize": 18,
-    "labelX": "4073.1998011579367",
-    "labelY": "963.1906077898714",
+    "labelX": "4071.7103428310957",
+    "labelY": "959.9427122925721",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "西サハラ暫定政府",
+    "color": "#940060",
+    "provinces": [
+      "path184"
+    ],
+    "labelText": "西サハラ暫定政府",
+    "labelFontSize": 18,
+    "labelX": "2180.26220703125",
+    "labelY": "1169.5671997070312",
     "lockCenter": false
   },
   {
@@ -959,8 +972,8 @@
     "provId": "path184",
     "text": "96",
     "fontSize": "20",
-    "x": "2165.685056014095",
-    "y": "1169.5671997070312"
+    "x": "2154.8793199443103",
+    "y": "1187.2500523378178"
   },
   {
     "type": "provNumber",
