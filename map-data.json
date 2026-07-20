@@ -86,8 +86,8 @@
     ],
     "labelText": "ルーマニア王国",
     "labelFontSize": 18,
-    "labelX": "2693.8045662043505",
-    "labelY": "796.7999465799043",
+    "labelX": "2701.2307465791723",
+    "labelY": "790.8040822102878",
     "lockCenter": false
   },
   {
@@ -127,6 +127,71 @@
     "labelFontSize": "50",
     "labelX": "3393.1060622512864",
     "labelY": "498.106141315164",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "セルビア社会主義共和国",
+    "color": "#7dffb5",
+    "provinces": [
+      "path47"
+    ],
+    "labelText": "セルビア社会主義共和国",
+    "labelFontSize": 18,
+    "labelX": "2611.5011048264064",
+    "labelY": "830.9868273629799",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "ダルセム共和国",
+    "color": "#732424",
+    "provinces": [
+      "path69"
+    ],
+    "labelText": "ダルセム共和国",
+    "labelFontSize": 18,
+    "labelX": "3447.894235484715",
+    "labelY": "1160.1036886982229",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "オーストリア帝国",
+    "color": "#1d008f",
+    "provinces": [
+      "path43"
+    ],
+    "labelText": "オーストリア帝国",
+    "labelFontSize": 18,
+    "labelX": "2541.8600322217258",
+    "labelY": "761.2386513123324",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "中華民国",
+    "color": "#7a7600",
+    "provinces": [
+      "path128"
+    ],
+    "labelText": "中華民国",
+    "labelFontSize": 18,
+    "labelX": "3787.64121126036",
+    "labelY": "966.6095095835503",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "辰韓皇国",
+    "color": "#748bd6",
+    "provinces": [
+      "path255"
+    ],
+    "labelText": "辰韓皇国",
+    "labelFontSize": 18,
+    "labelX": "4073.1998011579367",
+    "labelY": "963.1906077898714",
     "lockCenter": false
   },
   {
@@ -254,16 +319,16 @@
     "provId": "path43",
     "text": "16",
     "fontSize": "20",
-    "x": "2546.884521484375",
-    "y": "772.5091552734375"
+    "x": "2548.9336892415167",
+    "y": "782.4969376141298"
   },
   {
     "type": "provNumber",
     "provId": "path44",
     "text": "17",
     "fontSize": "20",
-    "x": "2588.0745849609375",
-    "y": "741.5338134765625"
+    "x": "2557.5417943319853",
+    "y": "733.3903105711865"
   },
   {
     "type": "provNumber",
@@ -278,24 +343,24 @@
     "provId": "path46",
     "text": "19",
     "fontSize": "20",
-    "x": "2616.7960205078125",
-    "y": "780.6832580566406"
+    "x": "2606.8082788155325",
+    "y": "789.2405821226844"
   },
   {
     "type": "provNumber",
     "provId": "path47",
     "text": "20",
     "fontSize": "20",
-    "x": "2614.1817121548793",
-    "y": "843.3889542452158"
+    "x": "2631.140676868141",
+    "y": "857.2208975785422"
   },
   {
     "type": "provNumber",
     "provId": "path48",
     "text": "21",
     "fontSize": "20",
-    "x": "2690.001928114477",
-    "y": "821.5168217778096"
+    "x": "2691.743671929953",
+    "y": "807.586326369041"
   },
   {
     "type": "provNumber",
@@ -1126,7 +1191,7 @@
     "provId": "path255",
     "text": "125",
     "fontSize": "20",
-    "x": "4077.5562744140625",
-    "y": "969.2356567382812"
+    "x": "4077.556335386681",
+    "y": "988.0841019212546"
   }
 ]
