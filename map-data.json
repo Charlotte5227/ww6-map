@@ -199,12 +199,13 @@
     "name": "西サハラ暫定政府",
     "color": "#940060",
     "provinces": [
-      "path184"
+      "path184",
+      "path183"
     ],
     "labelText": "西サハラ共和国",
     "labelFontSize": 18,
-    "labelX": "2181.0818687393325",
-    "labelY": "1167.3104268903087",
+    "labelX": "2212.937675062139",
+    "labelY": "1159.5819305593434",
     "lockCenter": false
   },
   {
@@ -218,6 +219,19 @@
     "labelFontSize": 18,
     "labelX": "3706.12255859375",
     "labelY": "785.218505859375",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "新世界",
+    "color": "#c9652e",
+    "provinces": [
+      "path133"
+    ],
+    "labelText": "新世界",
+    "labelFontSize": 18,
+    "labelX": "4030.659476250515",
+    "labelY": "1169.045368967803",
     "lockCenter": false
   },
   {
@@ -649,8 +663,8 @@
     "provId": "path133",
     "text": "54",
     "fontSize": "20",
-    "x": "4027.1798095703125",
-    "y": "1183.9019165039062"
+    "x": "4026.0527510445195",
+    "y": "1193.7379786459646"
   },
   {
     "type": "provNumber",
