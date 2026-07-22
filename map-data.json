@@ -235,6 +235,33 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "アンティリア・北カリブ共和国",
+    "color": "#84b396",
+    "provinces": [
+      "path232",
+      "path234"
+    ],
+    "labelText": "アンティリア・北カリブ共和国",
+    "labelFontSize": 18,
+    "labelX": "1317.8152465820312",
+    "labelY": "1235.176025390625",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "北欧バイキング",
+    "color": "#255579",
+    "provinces": [
+      "path13"
+    ],
+    "labelText": "北欧バイキング",
+    "labelFontSize": 18,
+    "labelX": "2685.499789243949",
+    "labelY": "432.2967634738612",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
@@ -1103,16 +1130,16 @@
     "provId": "path232",
     "text": "109",
     "fontSize": "20",
-    "x": "1275.3395385742188",
-    "y": "1219.4976196289062"
+    "x": "1263.2952155827977",
+    "y": "1208.4569902201038"
   },
   {
     "type": "provNumber",
     "provId": "path234",
     "text": "110",
     "fontSize": "20",
-    "x": "1379.4615478515625",
-    "y": "1261.5943603515625"
+    "x": "1377.4541606863258",
+    "y": "1260.5906667689442"
   },
   {
     "type": "provNumber",
