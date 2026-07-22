@@ -147,12 +147,13 @@
     "name": "ダルセム共和国",
     "color": "#732424",
     "provinces": [
-      "path69"
+      "path69",
+      "path68"
     ],
     "labelText": "ダルセム共和国",
     "labelFontSize": 18,
-    "labelX": "3447.894235484715",
-    "labelY": "1160.1036886982229",
+    "labelX": "3454.658758175398",
+    "labelY": "1160.533149671455",
     "lockCenter": false
   },
   {
