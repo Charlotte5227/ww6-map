@@ -69,12 +69,13 @@
     "name": "イタリア社会共和国",
     "color": "#00ff00",
     "provinces": [
-      "path41"
+      "path41",
+      "path188"
     ],
     "labelText": "イタリア社会共和国",
     "labelFontSize": 18,
-    "labelX": "2521.5719288166656",
-    "labelY": "856.8131411771268",
+    "labelX": "2532.4598639132555",
+    "labelY": "862.8670804399496",
     "lockCenter": false
   },
   {
@@ -134,12 +135,13 @@
     "name": "セルビア社会主義共和国",
     "color": "#7dffb5",
     "provinces": [
-      "path47"
+      "path47",
+      "path49"
     ],
     "labelText": "セルビア社会主義共和国",
     "labelFontSize": 18,
-    "labelX": "2611.5011048264064",
-    "labelY": "830.9868273629799",
+    "labelX": "2632.297938396233",
+    "labelY": "834.5157395945945",
     "lockCenter": false
   },
   {
@@ -843,8 +845,8 @@
     "provId": "path160",
     "text": "73",
     "fontSize": "20",
-    "x": "2781.7939453125",
-    "y": "1349.2877807617188"
+    "x": "2524.1669567018375",
+    "y": "1630.7061476636782"
   },
   {
     "type": "provNumber",
