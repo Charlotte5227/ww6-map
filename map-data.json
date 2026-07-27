@@ -219,12 +219,13 @@
     "name": "新世界",
     "color": "#c9652e",
     "provinces": [
-      "path133"
+      "path133",
+      "path130"
     ],
     "labelText": "新世界",
     "labelFontSize": 18,
-    "labelX": "4030.659476250515",
-    "labelY": "1169.045368967803",
+    "labelX": "4028.991141815438",
+    "labelY": "1164.4900384187822",
     "lockCenter": false
   },
   {
