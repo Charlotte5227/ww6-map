@@ -27,19 +27,6 @@
   },
   {
     "type": "country",
-    "name": "ヨコリビ帝国",
-    "color": "#ffff00",
-    "provinces": [
-      "path187"
-    ],
-    "labelText": "ヨコリビ帝国",
-    "labelFontSize": 18,
-    "labelX": "2591.78825155706",
-    "labelY": "1113.130200487648",
-    "lockCenter": false
-  },
-  {
-    "type": "country",
     "name": "フランス第四共和国",
     "color": "#00ffff",
     "provinces": [
