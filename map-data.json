@@ -86,12 +86,13 @@
     "color": "#ffc533",
     "provinces": [
       "path150",
-      "path148"
+      "path148",
+      "path143"
     ],
     "labelText": "バウンド平和国",
     "labelFontSize": 18,
-    "labelX": "2794.667160665183",
-    "labelY": "1799.597926491284",
+    "labelX": "2850.1634413581037",
+    "labelY": "1817.5138901953712",
     "lockCenter": false
   },
   {
