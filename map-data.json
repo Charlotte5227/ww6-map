@@ -112,12 +112,13 @@
     "name": "第七人民評議会",
     "color": "#ff0000",
     "provinces": [
-      "path2"
+      "path2",
+      "path64"
     ],
     "labelText": "第七人民評議会",
     "labelFontSize": "50",
-    "labelX": "3393.1060622512864",
-    "labelY": "498.106141315164",
+    "labelX": "3611.3547700582044",
+    "labelY": "552.2071768806941",
     "lockCenter": false
   },
   {
@@ -220,12 +221,13 @@
     "color": "#c9652e",
     "provinces": [
       "path133",
-      "path130"
+      "path130",
+      "path81"
     ],
     "labelText": "新世界",
     "labelFontSize": 18,
-    "labelX": "4028.991141815438",
-    "labelY": "1164.4900384187822",
+    "labelX": "4030.9687947351936",
+    "labelY": "1168.0545172359487",
     "lockCenter": false
   },
   {
@@ -684,8 +686,8 @@
     "provId": "path133",
     "text": "54",
     "fontSize": "20",
-    "x": "4026.0527510445195",
-    "y": "1193.7379786459646"
+    "x": "4022.8573462523077",
+    "y": "1193.4070552954295"
   },
   {
     "type": "provNumber",
