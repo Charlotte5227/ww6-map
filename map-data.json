@@ -32,12 +32,13 @@
     "color": "#00ffff",
     "provinces": [
       "path242",
-      "path190"
+      "path190",
+      "path191"
     ],
     "labelText": "フランス第四共和国",
     "labelFontSize": 18,
-    "labelX": "2386.249126512234",
-    "labelY": "782.4608560830335",
+    "labelX": "2372.288688949812",
+    "labelY": "775.5167156176046",
     "lockCenter": false
   },
   {
@@ -114,12 +115,13 @@
     "color": "#ff0000",
     "provinces": [
       "path2",
-      "path64"
+      "path64",
+      "path25"
     ],
-    "labelText": "第七人民評議会",
+    "labelText": "イヴラズィーイスキー国家評議会",
     "labelFontSize": "50",
-    "labelX": "3611.3547700582044",
-    "labelY": "552.2071768806941",
+    "labelX": "3401.627828787526",
+    "labelY": "534.5978294264726",
     "lockCenter": false
   },
   {
