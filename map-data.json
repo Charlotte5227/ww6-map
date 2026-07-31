@@ -154,19 +154,6 @@
   },
   {
     "type": "country",
-    "name": "オーストリア帝国",
-    "color": "#1d008f",
-    "provinces": [
-      "path43"
-    ],
-    "labelText": "オーストリア帝国",
-    "labelFontSize": 18,
-    "labelX": "2541.8600322217258",
-    "labelY": "761.2386513123324",
-    "lockCenter": false
-  },
-  {
-    "type": "country",
     "name": "中華民国",
     "color": "#7a7600",
     "provinces": [
@@ -203,19 +190,6 @@
     "labelFontSize": 18,
     "labelX": "2212.937675062139",
     "labelY": "1159.5819305593434",
-    "lockCenter": false
-  },
-  {
-    "type": "country",
-    "name": "モンゴロ国",
-    "color": "#ffb080",
-    "provinces": [
-      "path126"
-    ],
-    "labelText": "モンゴロ国",
-    "labelFontSize": 18,
-    "labelX": "3704.839816649131",
-    "labelY": "776.0996443026338",
     "lockCenter": false
   },
   {
