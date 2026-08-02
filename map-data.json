@@ -236,6 +236,19 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "チェコ＝スロヴァキア連合共和国",
+    "color": "#002c78",
+    "provinces": [
+      "path44"
+    ],
+    "labelText": "チェコ＝スロヴァキア連合共和国",
+    "labelFontSize": 18,
+    "labelX": "2591.8655371819677",
+    "labelY": "749.5788252791147",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
@@ -368,8 +381,8 @@
     "provId": "path44",
     "text": "17",
     "fontSize": "20",
-    "x": "2557.5417943319853",
-    "y": "733.3903105711865"
+    "x": "2555.08280928278",
+    "y": "725.9107994795238"
   },
   {
     "type": "provNumber",
@@ -424,8 +437,8 @@
     "provId": "path54",
     "text": "24",
     "fontSize": "20",
-    "x": "2839.0625",
-    "y": "926.0496215820312"
+    "x": "2834.6075051547414",
+    "y": "919.9553067580033"
   },
   {
     "type": "provNumber",
