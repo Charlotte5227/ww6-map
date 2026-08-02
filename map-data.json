@@ -117,12 +117,13 @@
     "provinces": [
       "path2",
       "path64",
-      "path25"
+      "path25",
+      "path126"
     ],
     "labelText": "イヴラズィーイスキー国家評議会",
     "labelFontSize": "50",
-    "labelX": "3401.627828787526",
-    "labelY": "534.5978294264726",
+    "labelX": "3401.9931580895636",
+    "labelY": "537.3911451581705",
     "lockCenter": false
   },
   {
