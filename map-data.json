@@ -200,12 +200,13 @@
     "provinces": [
       "path133",
       "path130",
-      "path81"
+      "path81",
+      "path92"
     ],
     "labelText": "新世界",
     "labelFontSize": 18,
-    "labelX": "4030.9687947351936",
-    "labelY": "1168.0545172359487",
+    "labelX": "4023.9281817195324",
+    "labelY": "1168.8257269931455",
     "lockCenter": false
   },
   {
