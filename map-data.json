@@ -156,19 +156,6 @@
   },
   {
     "type": "country",
-    "name": "中華民国",
-    "color": "#7a7600",
-    "provinces": [
-      "path128"
-    ],
-    "labelText": "中華民国",
-    "labelFontSize": 18,
-    "labelX": "3787.64121126036",
-    "labelY": "966.6095095835503",
-    "lockCenter": false
-  },
-  {
-    "type": "country",
     "name": "辰韓皇国",
     "color": "#748bd6",
     "provinces": [
@@ -248,6 +235,19 @@
     "labelFontSize": 18,
     "labelX": "2591.8655371819677",
     "labelY": "749.5788252791147",
+    "lockCenter": false
+  },
+  {
+    "type": "country",
+    "name": "サウジアラビア王国",
+    "color": "#785e00",
+    "provinces": [
+      "path59"
+    ],
+    "labelText": "サウジアラビア王国",
+    "labelFontSize": 18,
+    "labelX": "2960.10853828843",
+    "labelY": "1157.6886832319021",
     "lockCenter": false
   },
   {
@@ -479,8 +479,8 @@
     "provId": "path59",
     "text": "29",
     "fontSize": "20",
-    "x": "2982.9569091796875",
-    "y": "1171.418212890625"
+    "x": "2996.022426700491",
+    "y": "1192.6272129925983"
   },
   {
     "type": "provNumber",
@@ -679,8 +679,8 @@
     "provId": "path133",
     "text": "54",
     "fontSize": "20",
-    "x": "4022.8573462523077",
-    "y": "1193.4070552954295"
+    "x": "4019.860807182454",
+    "y": "1196.5810885874716"
   },
   {
     "type": "provNumber",
@@ -1247,8 +1247,8 @@
     "provId": "path255",
     "text": "125",
     "fontSize": "20",
-    "x": "4077.556335386681",
-    "y": "988.0841019212546"
+    "x": "4068.843216282561",
+    "y": "978.567543196863"
   },
   {
     "type": "freeLabel",
