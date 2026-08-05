@@ -578,14 +578,16 @@ async function downloadMapImage() {
     
     startX = pos.x;
     startY = pos.y;
-
+    
     const svg = getSvg();
     if (!svg) return;
-    const scaleX = viewBox.w / svg.clientWidth;
-    const scaleY = viewBox.h / svg.clientHeight;
 
-    viewBox.x -= dx * scaleX;
-    viewBox.y -= dy * scaleY;
+    const ctm = svg.getScreenCTM();
+    if (!ctm) return;
+
+    // 画面ピクセル → SVGユーザー単位への変換（実際の描画倍率をそのまま使う）
+    viewBox.x -= dx / ctm.a;
+    viewBox.y -= dy / ctm.d;
     updateViewBox();
   }
 
