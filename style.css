@@ -176,3 +176,8 @@ input[type="range"] {
 @media (max-width: 600px) {
   #zoomSlider { width: 120px; } 
 }
+
+#addSingleProvNumberBtn { background-color: #6366f1; color: #fff; }
+#addSingleProvNumberBtn:hover { background-color: #4f46e5; }
+#clearProvNumbersBtn { background-color: #ef4444; color: #fff; }
+#clearProvNumbersBtn:hover { background-color: #dc2626; }
