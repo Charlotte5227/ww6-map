@@ -450,7 +450,7 @@
 
 
   // --- GitHub API 通信系 ---
-  const GH_OWNER = "Charlotte5227"; const GH_REPO  = "Map-Tara"; const GH_PATH  = "map-data.json";
+  const GH_OWNER = "Charlotte5227"; const GH_REPO  = "ww6-map"; const GH_PATH  = "map-data.json";
   function toBase64Utf8(str) { return btoa(unescape(encodeURIComponent(str))); }
   function fromBase64Utf8(base64) {
     const binary = atob(base64.replace(/\s/g, ""));
