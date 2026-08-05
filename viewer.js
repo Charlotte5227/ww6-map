@@ -546,7 +546,6 @@ async function downloadMapImage() {
     startViewBoxX = viewBox.x;   // ← 追加
     startViewBoxY = viewBox.y;   // ← 追加
   }
-  }
 
   function handleMove(e) {
     if (!isDragging && !initialPinchDistance) {
