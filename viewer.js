@@ -513,6 +513,7 @@ async function downloadMapImage() {
   function getSvg() { return document.getElementById("mapSvg"); }
   let isDragging = false;
   let startX = 0, startY = 0;
+  let startViewBoxX = 0, startViewBoxY = 0;   // ← 追加
   let initialPinchDistance = null;
   let initialPinchViewBox = null;
 
@@ -542,6 +543,9 @@ async function downloadMapImage() {
     const pos = getPointerPos(e);
     startX = pos.x;
     startY = pos.y;
+    startViewBoxX = viewBox.x;   // ← 追加
+    startViewBoxY = viewBox.y;   // ← 追加
+  }
   }
 
   function handleMove(e) {
@@ -571,23 +575,19 @@ async function downloadMapImage() {
     }
 
     if (!isDragging) return;
-    
-    const pos = getPointerPos(e);
-    const dx = pos.x - startX;
-    const dy = pos.y - startY;
-    
-    startX = pos.x;
-    startY = pos.y;
-    
+
     const svg = getSvg();
     if (!svg) return;
-
     const ctm = svg.getScreenCTM();
     if (!ctm) return;
 
-    // 画面ピクセル → SVGユーザー単位への変換（実際の描画倍率をそのまま使う）
-    viewBox.x -= dx / ctm.a;
-    viewBox.y -= dy / ctm.d;
+    const pos = getPointerPos(e);
+    const dx = pos.x - startX;
+    const dy = pos.y - startY;
+
+    // admin.js と同じ：縦横とも ctm.a で割る
+    viewBox.x = startViewBoxX - (dx / ctm.a);
+    viewBox.y = startViewBoxY - (dy / ctm.a);
     updateViewBox();
   }
 
