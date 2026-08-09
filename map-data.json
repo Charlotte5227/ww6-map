@@ -129,20 +129,6 @@
   },
   {
     "type": "country",
-    "name": "セルビア社会主義共和国",
-    "color": "#7dffb5",
-    "provinces": [
-      "path47",
-      "path49"
-    ],
-    "labelText": "セルビア社会主義共和国",
-    "labelFontSize": 18,
-    "labelX": "2632.297938396233",
-    "labelY": "834.5157395945945",
-    "lockCenter": false
-  },
-  {
-    "type": "country",
     "name": "ダルセム共和国",
     "color": "#732424",
     "provinces": [
@@ -234,8 +220,8 @@
     ],
     "labelText": "チェコ＝スロヴァキア連合共和国",
     "labelFontSize": 18,
-    "labelX": "2591.8655371819677",
-    "labelY": "749.5788252791147",
+    "labelX": "2586.6893886933026",
+    "labelY": "753.1609056339211",
     "lockCenter": false
   },
   {
@@ -421,8 +407,8 @@
     "provId": "path47",
     "text": "20",
     "fontSize": "20",
-    "x": "2631.140676868141",
-    "y": "857.2208975785422"
+    "x": "2606.7554301590267",
+    "y": "834.9872932737919"
   },
   {
     "type": "provNumber",
