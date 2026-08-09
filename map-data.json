@@ -78,8 +78,8 @@
     ],
     "labelText": "ルーマニア王国",
     "labelFontSize": 18,
-    "labelX": "2696.415169831159",
-    "labelY": "788.4475311598922",
+    "labelX": "2697.849652298618",
+    "labelY": "788.808163873162",
     "lockCenter": false
   },
   {
@@ -252,6 +252,19 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "ドローガ国",
+    "color": "#ff8873",
+    "provinces": [
+      "path45"
+    ],
+    "labelText": "ドローガ国",
+    "labelFontSize": 18,
+    "labelX": "2612.869671411977",
+    "labelY": "685.4360792791214",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
@@ -392,8 +405,8 @@
     "provId": "path45",
     "text": "18",
     "fontSize": "20",
-    "x": "2612.85888671875",
-    "y": "691.9079284667969"
+    "x": "2609.785114758831",
+    "y": "708.8136640842484"
   },
   {
     "type": "provNumber",
@@ -1192,8 +1205,8 @@
     "provId": "path242",
     "text": "118",
     "fontSize": "20",
-    "x": "3488.440699596877",
-    "y": "1445.8824405070773"
+    "x": "3102.0515610045745",
+    "y": "488.4404653116786"
   },
   {
     "type": "provNumber",
