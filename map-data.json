@@ -226,6 +226,19 @@
     "lockCenter": false
   },
   {
+    "type": "country",
+    "name": "エミュー主権国",
+    "color": "#eaff00",
+    "provinces": [
+      "path123"
+    ],
+    "labelText": "エミュー主権国",
+    "labelFontSize": 18,
+    "labelX": "4181.6593017578125",
+    "labelY": "1981.2362670898438",
+    "lockCenter": false
+  },
+  {
     "type": "provNumber",
     "provId": "path12",
     "text": "1",
